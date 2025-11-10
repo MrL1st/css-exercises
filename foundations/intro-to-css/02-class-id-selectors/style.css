@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+
+/*All odd-numbered elements use p*/
+/*All even numbers use div*/
+
+p {
+    background-color: lightpink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.second-element{
+    
+}
