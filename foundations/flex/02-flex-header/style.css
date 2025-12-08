@@ -1,7 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  padding: 8px;
   display: flex;
+  align-items: center;
+  /*This moves everything out the way*/
+  justify-content: space-between;
 }
 
 .logo {
@@ -10,20 +14,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  display: flex;
-  flex: auto;
-  align-items: center;
-  justify-content: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  /*These keep the items on the edge of the header*/
+  margin: 0;
+  padding: 0;
+  /*This creates gaps between each item*/
+  gap: 8px;
 }
 
 a {
